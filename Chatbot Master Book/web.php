@@ -8,7 +8,7 @@ $models = [
     'arcee-ai/trinity-mini:free'        => 'Arcee AI Trinity Mini'
 ];
 
-$apiKey = "ISI_API_KEY_KAMU";
+$apiKey = "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";
 $url = "https://openrouter.ai/api/v1/chat/completions";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($userInput)) {
@@ -227,3 +227,4 @@ pre {
 </div>
 </body>
 </html>
+
